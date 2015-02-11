@@ -1,0 +1,22 @@
+Brundt the Chieftain:
+
+       player.getDialogue().sendNpcChat("Greetings outerlander!", CONTENT)
+       return true;
+       player.getDialogue().sendOption("What is this place?", "Why will no-one talk to me?", "Do you have any quests?", "Nice hat!")
+       return true;
+       
+Case 1:
+       player.getDialogue().sendPlayerChat("What is this place?", CONTENT)
+       return true;
+       player.getDialogue().sendNpcChat("This place? Why, this is Rellekka! Homeland of all", "Fremennik! I do not recognise your face outerlander;", "Where do you come from?", CONTENT)
+       return true;
+       player.getDialogue().sendPlayerChat("That's not important...", CONTENT)
+       return true;
+       player.getDialogue().sendNpcChat("Hmmm... I will not press the issue then outerlander.", "How may my tribe and I help you?", CONTENT)
+       return true;
+       player.getDialogue().sendOption("Do you have any quests?, "Why will no-one talk to me?", "Why do you call me outerlander?", "I seek an army to destroy Asgarnia!", "Who are the Fremennik?")
+       return true;
+       player.getDialogue().sendPlayerChat("Do you have any quests?", CONTENT)
+       return true;
+       player.getDialogue().sendNpcChat("Quests, you say outerlander? Well, I would not call it a", "Quest as such, but if you are brave of heart and stron", "of ody, perhaps...", CONTENT)
+       return true;
