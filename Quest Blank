@@ -1,0 +1,11 @@
+player.getDialogue().sendNpcChat("Greetings adventurer.", "Cross my palm with gold and the future", "will be revealed to you.", CONTENT);
+return true;
+
+player.getDialogue().sendOption("Okay, here you go. (1 gold)", "No, I don't believe in that stuff.");
+return true;
+
+player.getDialogue().sendPlayerChat("Okay, here you go.", CONTENT);
+
+player.getDialogue().endDialogue();
+
+these are some standard dialogue codes.
